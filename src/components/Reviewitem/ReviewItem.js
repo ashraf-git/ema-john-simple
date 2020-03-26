@@ -13,6 +13,7 @@ const ReviewItem = (props) => {
         <div style={reviewItemStyle}>
             <h4 className="product-name">{name} </h4>
             <p>Quantity: {quantity}</p>
+            <p><small>$ {}</small></p>
             <br/>
             <button 
                 className="main-button"
